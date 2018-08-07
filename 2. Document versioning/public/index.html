@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document Versioning</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="jquery.js"></script>
+</head>
+<body>
+<div class="doc holder">
+    <h3>Document Editor</h3>
+    <input id="doc_name" type="text" placeholder="Document Name" /> <input id="doc_create" type="button" value="Create Document"/>
+    <br/>
+    <br/>
+    <label for="docs_select">Pick a Document</label>
+    <select id="docs_select">
+        <option></option>
+    </select>
+    <br />
+    <br />
+    <textarea id="doc_content" cols="50" rows="20"></textarea>
+    <input type="button" id="doc_save" value="Save" />
+</div>
+<div class="diff holder">
+    <h3>Document Diffs</h3>
+    <div class="container"></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

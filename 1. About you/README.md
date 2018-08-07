@@ -1,9 +1,5 @@
 ### Tell us about one of your commercial projects with Node.js and/or AngularJS.
 
-##### BeamNG.Drive UI (Angular 1.x)
-
-Web-based UI running on CEF that communicated to the game data through LUA function calls that were injected to the global namespace.
-
 ##### Insurance App (Angular 1.x)
 
 Mobile App that allows you to manage your insurance policies and take pictures of your car and send them to the insurers directly.

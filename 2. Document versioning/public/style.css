@@ -1,0 +1,21 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.holder {
+    float: left;
+    margin: 30px;
+}
+
+.doc {
+    width: 400px;
+}
+
+.diff {
+    width: 300px;
+}
+
+.container {
+    min-height: 234px;
+}

@@ -1,0 +1,14 @@
+{
+  "documents": [
+    {
+      "id": "a3ae3c33-83ec-4963-830b-2f3f99a5f49b",
+      "name": "Test Doc",
+      "content": "foo bar",
+      "history": [
+        {
+          "diff": []
+        }
+      ]
+    }
+  ]
+}

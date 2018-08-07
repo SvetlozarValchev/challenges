@@ -1,0 +1,17 @@
+{
+  "name": "2-document-versioning",
+  "version": "1.0.0",
+  "description": "It should be able to show:",
+  "main": "solution.js",
+  "scripts": {
+    "start": "node solution",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "text-diff": "^1.0.1"
+  }
+}
