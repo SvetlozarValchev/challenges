@@ -1,4 +1,4 @@
-### Challenge
+## Challenge
 
 ##### Detail how you would store several versioned, text-based documents, and present a schema for your solution.
 
@@ -10,12 +10,13 @@ It should be able to show:
 
 Strive for disk space efficiency.
 
-### Solution
+## Solution
 
 Document Schema:
 ```
 {
     id: string,
+    name: string,
     content: string,
     history: [
         {
@@ -33,9 +34,14 @@ To get a previous revision you apply each diff in the array until the revision y
 
 
 
-For optimizations, `history` can be moved to another collection so it's not requested each time the document is requested.
+#### For optimizations:
+ 
+ - Diff/Patch computations can be ran on client machines to reduce computational load on servers  
+ - Large documents can be split into chunks and ran in parallel to not block the operation of UI/UX and reduce computation time
+ - `history` can be moved to another collection/API so it's not requested each time the document is requested 
+ - `history` can be paginated through the API if a sizable amount is a standard average 
 
-### Example
+## Example
 
 Proof of concept of versioning multiple documents is available.
 
