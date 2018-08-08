@@ -1,12 +1,11 @@
 ## Challenge
 
-#### Detail how you would store several versioned, text-based documents, and present a schema for your solution.
+Detail how you would store several versioned, text-based documents, and present a schema for your solution.
 
 It should be able to show:
-
-- the document in its current state  
-- the document at any point in its history  
-- the changes made between two versions  
+   - the document in its current state
+   - the document at any point in its history
+   - the changes made between two versions
 
 Strive for disk space efficiency.
 
