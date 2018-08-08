@@ -1,0 +1,8 @@
+{
+  "export": {
+    "bookId": {
+      "type": "String",
+      "required": true
+    }
+  }
+}
