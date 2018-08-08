@@ -58,8 +58,4 @@ Run the App
 npm start
 ```
 
-Open in the browser: 
-
-```
-http://127.0.0.1:3000/
-```
+Open in the browser: [http://127.0.0.1:3000/](http://127.0.0.1:3000/)
