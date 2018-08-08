@@ -18,7 +18,9 @@ app.use(express.static('public'));
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({extended: true})); // support encoded bodies
 
-app.get('/api/getAllDocuments', (req, res) => {
+const router = express.Router();
+
+router.get('/getAllDocuments', (req, res) => {
     res.send(Data.documents.map((item) => {
         return {
             id: item.id,
@@ -27,7 +29,7 @@ app.get('/api/getAllDocuments', (req, res) => {
     }));
 });
 
-app.get('/api/getDocument/:docId', (req, res) => {
+router.get('/getDocument/:docId', (req, res) => {
     const docId = req.params['docId'];
     const docData = Data.documents.find((item) => item.id === docId);
 
@@ -38,7 +40,7 @@ app.get('/api/getDocument/:docId', (req, res) => {
     }
 });
 
-app.post('/api/createDocument', (req, res) => {
+router.post('/createDocument', (req, res) => {
     const id = uuidv4();
     const name = req.body.name;
 
@@ -54,7 +56,7 @@ app.post('/api/createDocument', (req, res) => {
     });
 });
 
-app.post('/api/saveDocument', (req, res) => {
+router.post('/saveDocument', (req, res) => {
     const id = req.body.id;
     const content = req.body.content;
     const docIndex = Data.documents.findIndex((item) => item.id === id);
@@ -75,5 +77,7 @@ app.post('/api/saveDocument', (req, res) => {
 
     res.send(historyObj);
 });
+
+app.use('/api/', router);
 
 app.listen(3000, () => console.log('Solution listening on port 3000!'));
