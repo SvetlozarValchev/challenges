@@ -46,6 +46,20 @@ Computations are made on the client machine to reduce load on the servers.
 
 Proof of concept of versioning multiple documents is available.
 
-Run `npm start`
+Install dependencies
 
-Open in the browser: `http://127.0.0.1:3000/`
+```
+npm install
+``` 
+
+Run the App
+ 
+```
+npm start
+```
+
+Open in the browser: 
+
+```
+http://127.0.0.1:3000/
+```
