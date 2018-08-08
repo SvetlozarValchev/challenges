@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>Document Versioning</title>
     <link rel="stylesheet" href="style.css"/>
-    <script src="jquery.js"></script>
-    <script src="diff.js"></script>
+    <script src="libs/jquery.js"></script>
+    <script src="libs/diff.js"></script>
 </head>
 <body>
 <div class="doc holder">
@@ -19,6 +19,7 @@
     </select>
     <br />
     <br />
+    <label for="docContent">Latest</label>
     <textarea id="docContent" cols="50" rows="20"></textarea>
     <input type="button" id="docSave" value="Save" />
 </div>
@@ -27,7 +28,7 @@
     <div id="diffContainer"></div>
 </div>
 <div class="diff holder">
-    <h3>Document at Revision</h3>
+    <h3>Document at Revision (raw)</h3>
     <div id="docAtRevision"></div>
 </div>
 <div class="diff holder">
