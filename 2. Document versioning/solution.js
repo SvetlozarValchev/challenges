@@ -67,7 +67,7 @@ app.post('/api/saveDocument', (req, res) => {
 
     const historyObj = {
         revision: revision,
-        diff: textDiff.map((item) => item[0] <= 0 ? [item[0], item[1].length] : item)
+        diff: textDiff.map((item) => item[0] <= 0 ? [item[0], item[1].length] : item) // compact data
     };
 
     Data.documents[docIndex].content = content;
