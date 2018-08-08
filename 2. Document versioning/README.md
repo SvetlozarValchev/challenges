@@ -38,7 +38,7 @@ To get a previous revision you apply each revision in the array until the revisi
 Computations are made on the client machine to reduce load on the servers.
 
 ### For optimizations:
- - Large documents can be split into chunks and ran in parallel to not block the operation of UI/UX and reduce computation time
+ - Large documents can be split into chunks and ran in parallel threads to not block the operation of UI/UX and reduce computation time
  - `history` can be moved to another collection/API so it's not requested each time the document is requested 
  - `history` can be paginated through the API if a sizable amount is a standard average 
 
