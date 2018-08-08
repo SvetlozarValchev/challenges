@@ -7,7 +7,7 @@ const diff = new Diff(); // options may be passed to constructor; see below
 
 // Generic UUID generator function
 function uuidv4() {
-    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
         const r = Math.random() * 16 | 0,
             v = (c === 'x') ? r : (r & 0x3 | 0x8);
         return v.toString(16);
@@ -57,16 +57,23 @@ app.post('/api/createDocument', (req, res) => {
 app.post('/api/saveDocument', (req, res) => {
     const id = req.body.id;
     const content = req.body.content;
-    const docData = Data.documents.find((item) => item.id === id);
+    const docIndex = Data.documents.findIndex((item) => item.id === id);
 
-    const textDiff = diff.main(docData.content, content); // produces diff array
+    const textDiff = diff.main(content, Data.documents[docIndex].content); // produces diff array
 
     diff.cleanupEfficiency(textDiff);
 
-    const newDiff = textDiff.map((item) => item[0] === 0 ? [0, item[1].length] : item);
+    const revision = Data.documents[docIndex].history.length > 0 ? Data.documents[docIndex].history[0].revision + 1 : 1;
 
-    console.log(newDiff);
-    console.log(content);
+    const historyObj = {
+        revision: revision,
+        diff: textDiff.map((item) => item[0] <= 0 ? [item[0], item[1].length] : item)
+    };
+
+    Data.documents[docIndex].content = content;
+    Data.documents[docIndex].history.unshift(historyObj);
+
+    res.send(historyObj);
 });
 
 app.listen(3000, () => console.log('Solution listening on port 3000!'));

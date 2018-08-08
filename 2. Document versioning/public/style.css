@@ -16,6 +16,10 @@ html, body {
     width: 300px;
 }
 
-.container {
-    min-height: 234px;
+.diffHighlight del {
+    background:#ffe6e6;
+}
+
+.diffHighlight ins {
+    background:#e6ffe6;
 }

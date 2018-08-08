@@ -3,10 +3,88 @@
     {
       "id": "a3ae3c33-83ec-4963-830b-2f3f99a5f49b",
       "name": "Test Doc",
-      "content": "foo bar",
+      "content": "I am the very model of a cartoon individual, My animation's comical, unusual, and whimsical, I'm quite adept at funny gags, comedic theory I have read, From wicked puns and stupid jokes to anvils that drop on your head.",
       "history": [
         {
-          "diff": []
+          "revision": 1,
+          "diff": [
+            [
+              0,
+              25
+            ],
+            [
+              -1,
+              26
+            ],
+            [
+              1,
+              "modern Major-General, I've infor"
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              -1,
+              17
+            ],
+            [
+              1,
+              " vegetable, anim"
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              -1,
+              49
+            ],
+            [
+              1,
+              "mineral, I know the kings of England, and I quote"
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              -1,
+              17
+            ],
+            [
+              1,
+              " fights historical, "
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              -1,
+              28
+            ],
+            [
+              1,
+              "Marathon"
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              -1,
+              29
+            ],
+            [
+              1,
+              "Waterloo, in order categorical"
+            ],
+            [
+              0,
+              1
+            ]
+          ]
         }
       ]
     }

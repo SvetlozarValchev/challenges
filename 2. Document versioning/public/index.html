@@ -5,25 +5,38 @@
     <title>Document Versioning</title>
     <link rel="stylesheet" href="style.css"/>
     <script src="jquery.js"></script>
+    <script src="diff.js"></script>
 </head>
 <body>
 <div class="doc holder">
     <h3>Document Editor</h3>
-    <input id="doc_name" type="text" placeholder="Document Name" /> <input id="doc_create" type="button" value="Create Document"/>
+    <input id="docName" type="text" placeholder="Document Name" /> <input id="docCreate" type="button" value="Create Document"/>
     <br/>
     <br/>
-    <label for="docs_select">Pick a Document</label>
-    <select id="docs_select">
+    <label for="docsSelect">Pick a Document</label>
+    <select id="docsSelect">
         <option></option>
     </select>
     <br />
     <br />
-    <textarea id="doc_content" cols="50" rows="20"></textarea>
-    <input type="button" id="doc_save" value="Save" />
+    <textarea id="docContent" cols="50" rows="20"></textarea>
+    <input type="button" id="docSave" value="Save" />
 </div>
 <div class="diff holder">
     <h3>Document Diffs</h3>
-    <div class="container"></div>
+    <div id="diffContainer"></div>
+</div>
+<div class="diff holder">
+    <h3>Document at Revision</h3>
+    <div id="docAtRevision"></div>
+</div>
+<div class="diff holder">
+    <h3>Document Diff</h3>
+    <div id="docDiff" class="diffHighlight"></div>
+</div>
+<div class="diff holder">
+    <h3>Data</h3>
+    <div id="docData"></div>
 </div>
 <script src="app.js"></script>
 </body>

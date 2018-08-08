@@ -30,13 +30,13 @@ Each history item holds a diff between the previous and next one. It's kept in a
 
 Diff is made using a Lib like [text-diff](https://github.com/liddiard/text-diff), but any code that can extract the difference between 2 strings can work.
 
+Revision diffs are compacted by storing only the removed as string and the rest as length to reduce duplicate data.
+
 To get a previous revision you apply each diff in the array until the revision you want.
 
-
+Computations are also made on the client machine to reduce computational load on servers
 
 #### For optimizations:
- 
- - Diff/Patch computations can be ran on client machines to reduce computational load on servers  
  - Large documents can be split into chunks and ran in parallel to not block the operation of UI/UX and reduce computation time
  - `history` can be moved to another collection/API so it's not requested each time the document is requested 
  - `history` can be paginated through the API if a sizable amount is a standard average 
