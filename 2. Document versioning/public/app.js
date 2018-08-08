@@ -56,6 +56,7 @@ function fetchDocument(id) {
             selectedDoc = res;
 
             docContent.val(selectedDoc.content);
+            docContent.attr('readonly', false);
             updateDiffs();
         }
     });
@@ -160,8 +161,9 @@ function clearFields() {
     diffContainer.html('');
     docAtRevision.text('');
     docDiff.text('');
-    docContent.val('');
     docData.text('');
+    docContent.val('');
+    docContent.attr('readonly', true);
 }
 
 (function() {
