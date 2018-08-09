@@ -1,8 +1,18 @@
 {
   "export": {
-    "bookId": {
-      "type": "String",
-      "required": true
-    }
+    "type": "object",
+    "properties": {
+      "bookId": { "type": "string", "minimum": 1 },
+      "type": { "type": "string", "enum": ["epub", "pdf"] }
+    },
+    "required": ["bookId", "type"]
+  },
+  "import": {
+    "type": "object",
+    "properties": {
+      "bookId": { "type": "string" },
+      "type": { "type": "string", "enum": ["word", "pdf", "wattpad", "evernote"] }
+    },
+    "required": ["bookId", "type", "url"]
   }
 }
