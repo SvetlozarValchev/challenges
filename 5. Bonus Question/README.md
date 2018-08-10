@@ -36,3 +36,14 @@ The project should be responsible for managing all the required dependencies and
 
 ## Solution
 
+### Install Dependencies
+
+```
+npm install
+```
+
+### Running tests
+
+```
+npm test
+```
