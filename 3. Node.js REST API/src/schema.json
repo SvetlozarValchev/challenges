@@ -11,7 +11,8 @@
     "type": "object",
     "properties": {
       "bookId": { "type": "string" },
-      "type": { "type": "string", "enum": ["word", "pdf", "wattpad", "evernote"] }
+      "type": { "type": "string", "enum": ["word", "pdf", "wattpad", "evernote"] },
+      "url": { "type": "string" }
     },
     "required": ["bookId", "type", "url"]
   }

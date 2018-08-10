@@ -33,6 +33,10 @@ export abstract class Job {
         this.created_at = Date.now();
     }
 
+    public getBookId(): string {
+        return this.bookId;
+    }
+
     public getType(): string {
         return this.type;
     }

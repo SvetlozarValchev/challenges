@@ -13,11 +13,11 @@ enum APIResponseStatus {
 }
 
 class App {
-    private express: express.Application;
-
     private validator: Validator;
 
     private jobs: Job[] = [];
+
+    public express: express.Application;
 
     constructor() {
         this.express = express();
@@ -50,6 +50,10 @@ class App {
         });
     }
 
+    public clearJobs(): void {
+        this.jobs = [];
+    }
+
     private mountRoutes(): void {
         const router: express.Router = express.Router();
 
@@ -68,10 +72,10 @@ class App {
         });
 
         router.post('/CreateImportJob', (req: express.Request, res: express.Response) => {
-            const validator = this.validator.validate(req.body, schema.export);
+            const validator = this.validator.validate(req.body, schema.import);
 
             if (validator.valid) {
-                this.jobs.push(new ExportJob(req.body.bookId, req.body.type));
+                this.jobs.push(new ImportJob(req.body.bookId, req.body.type, req.body.url));
 
                 App.apiResponse(res, APIResponseStatus.Success);
             } else {
@@ -97,7 +101,7 @@ class App {
             App.apiResponse(res, APIResponseStatus.Success, utils.groupBy(exportJobs, 'state'));
         });
 
-        this.express.use('/api/', router)
+        this.express.use('/api/', router);
     }
 
     private processJobs(): void {
@@ -113,7 +117,7 @@ class App {
             }
 
             if (!type) {
-                console.error('Job type not recognized');
+                console.error(`Instance not recognized for job with bookId ${job.getBookId()}`);
                 return;
             }
 
