@@ -18,4 +18,22 @@ The project should be responsible for managing all the required dependencies and
 
 ## Solution
 
+### Install Dependencies
 
+```
+npm install
+```
+
+### Run the Application
+
+```
+npm start
+```
+
+Now browse to the app at [http://localhost:8000/](http://localhost:8000/).
+
+### Running Unit Tests
+
+```
+npm test
+```
