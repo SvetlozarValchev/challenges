@@ -1,0 +1,419 @@
+{
+  "books": [
+    {
+      "author": "Chinua Achebe",
+      "imageLink": "images/things-fall-apart.jpg",
+      "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart",
+      "title": "Things Fall Apart",
+      "description": "Things Fall Apart is a novel written by Nigerian author Chinua Achebe. Published in 1959, its story chronicles pre-colonial life in the south-eastern part of Nigeria and the arrival of the Europeans during the late nineteenth century. It is seen as the archetypal modern African novel in English, one of the first to receive global critical acclaim. It is a staple book in schools throughout Africa and is widely read and studied in English-speaking countries around the world. Achebe's debut novel, it was first published by William Heinemann Ltd in the UK; in 1962, it was also the first work published in Heinemann's African Writers Series. The title of the novel was borrowed from W. B. Yeats' 1919 poem \"The Second Coming\".",
+      "year": 1958,
+      "rating": "3.7",
+      "links": {
+        "amazon": "http://www.amazon.com",
+        "ibooks": "http://www.apple.com/lae/ibooks/"
+      }
+    },
+    {
+      "author": "Hans Christian Andersen",
+      "imageLink": "images/fairy-tales.jpg",
+      "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.",
+      "title": "Fairy tales",
+      "description": "Fairy Tales Told for Children. First Collection. (Danish: Eventyr, fortalte for Børn. Første Samling.) is a collection of nine fairy tales by Hans Christian Andersen. The tales were published in a series of three installments by C. A. Reitzel in Copenhagen, Denmark between May 1835 and April 1837, and represent Andersen's first venture into the fairy tale genre.The first installment of sixty-one unbound pages was published 8 May 1835 and contained \"The Tinderbox\", \"Little Claus and Big Claus\", \"The Princess and the Pea\", and \"Little Ida's Flowers\". The first three tales were based on folktales Andersen had heard in his childhood while the last tale was completely Andersen's invention and created for Ida Thiele, the daughter of Andersen‘s early benefactor, the folklorist Just Matthias Thiele. Reitzel paid Andersen thirty rixdollars for the manuscript, and the booklet was priced at twenty-four shillings.",
+      "year": 1836,
+      "rating": "7.6",
+      "links": {
+        "amazon": "http://www.amazon.com"
+      }
+    },
+    {
+      "author": "Dante Alighieri",
+      "imageLink": "images/the-divine-comedy.jpg",
+      "link": "https://en.wikipedia.org/wiki/Divine_Comedy",
+      "title": "The Divine Comedy",
+      "description": "The Divine Comedy is a long narrative poem by Dante Alighieri, begun c. 1308 and completed in 1320, a year before his death in 1321. It is widely considered to be the preeminent work in Italian literature and one of the greatest works of world literature. The poem's imaginative vision of the afterlife is representative of the medieval world-view as it had developed in the Western Church by the 14th century. It helped establish the Tuscan language, in which it is written (also in most present-day Italian-market editions), as the standardized Italian language. It is divided into three parts: Inferno, Purgatorio, and Paradiso.\r\n\r\nThe narrative describes Dante's travels through Hell, Purgatory, and Paradise or Heaven, while allegorically the poem represents the soul's journey towards God. Dante draws on medieval Christian theology and philosophy, especially Thomistic philosophy and the Summa Theologica of Thomas Aquinas. Consequently, the Divine Comedy has been called \"the Summa in verse\". In Dante's work, Virgil is presented as human reason and Beatrice is presented as divine knowledge.",
+      "year": 1315,
+      "rating": "4.6",
+      "links": {
+        "playstore": "http://play.google.com/books"
+      }
+    },
+    {
+      "author": "Unknown",
+      "imageLink": "images/one-thousand-and-one-nights.jpg",
+      "link": "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights",
+      "title": "One Thousand and One Nights",
+      "description": "One Thousand and One Nights is a collection of Middle Eastern folk tales compiled in Arabic during the Islamic Golden Age. It is often known in English as the Arabian Nights, from the first English-language edition (c. 1706 – c. 1721), which rendered the title as The Arabian Nights' Entertainment.\r\n\r\nThe work was collected over many centuries by various authors, translators, and scholars across West, Central, and South Asia and North Africa. The tales themselves trace their roots back to ancient and medieval Arabic, Greek, Indian, Jewish, Persian and Turkish folklore and literature. In particular, many tales were originally folk stories from the Abbasid era, while others, especially the frame story, are most probably drawn from the Pahlavi Persian work, which in turn relied partly on Indian elements.",
+      "year": 1200,
+      "rating": "7.1",
+      "links": {
+        "amazon": "http://www.amazon.com"
+      }
+    },
+    {
+      "author": "Unknown",
+      "imageLink": "images/njals-saga.jpg",
+      "link": "https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga",
+      "title": "Njál's Saga",
+      "description": "Njáls saga (modern Icelandic pronunciation: About this sound listen (help·info)) (also Njála (About this sound listen (help·info)), Brennu-Njáls saga (About this sound listen (help·info)) or \"The Story of Burnt Njáll\") is a thirteenth-century Icelandic saga that describes events between 960 and 1020. The principal characters are the friends Njáll Þorgeirsson, a lawyer and a sage, and Gunnar Hámundarson, a formidable warrior. Gunnar's wife instigates a feud that leads to the death of many characters over several decades including the killing by fire of the eponymous \"Burnt Njáll\". The saga deals with this process of blood feuds in the Icelandic Commonwealth, showing how the requirements of honor could lead to minor slights spiralling into destructive and prolonged bloodshed. Insults where a character's manhood is called into question are especially prominent and may reflect an author critical of an overly restrictive ideal of masculinity. Another characteristic of the narrative is the presence of omens and prophetic dreams. It is disputed whether this reflects a fatalistic outlook on the part of the author.\n\nThe work is anonymous, although there has been extensive speculation on the author's identity. The major events described in the saga are probably historical but the material was shaped by the author, drawing on oral tradition, according to his artistic needs. Njáls saga is the longest and most highly developed of the sagas of Icelanders. It is often considered the peak of the saga tradition.",
+      "year": 1350,
+      "rating": "6.8",
+      "links": {
+        "ibooks": "http://www.apple.com/lae/ibooks/",
+        "playstore": "http://play.google.com/books"
+      }
+    },
+    {
+      "author": "Jane Austen",
+      "imageLink": "images/pride-and-prejudice.jpg",
+      "link": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+      "title": "Pride and Prejudice",
+      "description": "Pride and Prejudice is a romantic novel by Jane Austen, first published in 1813. The story charts the emotional development of the protagonist, Elizabeth Bennet, who learns the error of making hasty judgments and comes to appreciate the difference between the superficial and the essential. The comedy of the writing lies in the depiction of manners, education, marriage, and money during the British Regency period.\n\nMr. Bennet of the Longbourn estate has five daughters, but his property is entailed, meaning that none of the girls can inherit it. His wife has no fortune, so it is imperative that at least one of the girls marry well in order to support the others upon his death. Jane Austen's opening line, \"It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife\", is a sentence filled with irony and playfulness. The novel revolves around the importance of marrying for love, not simply for money, despite the social pressures to make a good (i.e., wealthy) match.\n\nPride and Prejudice has long fascinated readers, consistently appearing near the top of lists of \"most-loved books\" among both literary scholars and the general public. It has become one of the most popular novels in English literature, with over 20 million copies sold, and paved the way for many archetypes that abound in modern literature.[better source needed] For more than a century, amateur and professional dramatic adaptations, print continuations and sequels, and film and TV versions of Pride and Prejudice have reimagined the original novel's memorable characters and themes to reach mass audiences. The 2005 film, Pride & Prejudice, starring Keira Knightley and Matthew Macfadyen is the most recent Hollywood adaptation of the book.",
+      "year": 1813,
+      "rating": "4.6",
+      "links": {
+        "amazon": "http://www.amazon.com",
+        "playstore": "http://play.google.com/books"
+      }
+    },
+    {
+      "author": "Honoré de Balzac",
+      "imageLink": "images/le-pere-goriot.jpg",
+      "link": "https://en.wikipedia.org/wiki/Le_P%C3%A8re_Goriot",
+      "title": "Le Père Goriot",
+      "description": "Le Père Goriot (French pronunciation: ​[lə pɛʁ ɡɔʁjo], Old Goriot or Father Goriot) is an 1835 novel by French novelist and playwright Honoré de Balzac (1799–1850), included in the Scènes de la vie privée section of his novel sequence La Comédie humaine. Set in Paris in 1819, it follows the intertwined lives of three characters: the elderly doting Goriot; a mysterious criminal-in-hiding named Vautrin; and a naive law student named Eugène de Rastignac.\n\nOriginally published in serial form during the winter of 1834/35, Le Père Goriot is widely considered Balzac's most important novel. It marks the first serious use by the author of characters who had appeared in other books, a technique that distinguishes Balzac's fiction. The novel is also noted as an example of his realist style, using minute details to create character and subtext.\n\nThe novel takes place during the Bourbon Restoration, which brought profound changes to French society; the struggle by individuals to secure a higher social status is a major theme in the book. The city of Paris also impresses itself on the characters – especially young Rastignac, who grew up in the provinces of southern France. Balzac analyzes, through Goriot and others, the nature of family and marriage, providing a pessimistic view of these institutions.\n\nThe novel was released to mixed reviews. Some critics praised the author for his complex characters and attention to detail; others condemned him for his many depictions of corruption and greed. A favorite of Balzac's, the book quickly won widespread popularity and has often been adapted for film and the stage. It gave rise to the French expression \"Rastignac\", a social climber willing to use any means to better his situation.",
+      "year": 1835,
+      "rating": "9.4",
+      "links": {
+        "amazon": "http://www.amazon.com"
+      }
+    },
+    {
+      "author": "Samuel Beckett",
+      "imageLink": "images/molloy-malone-dies-the-unnamable.jpg",
+      "link": "https://en.wikipedia.org/wiki/Molloy_(novel)",
+      "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
+      "description": "Molloy is a novel by Samuel Beckett written in French and first published by Paris-based Les Éditions de Minuit in 1951. The English translation, published in 1955, is by Beckett and Patrick Bowles.",
+      "year": 1952,
+      "rating": "5.9",
+      "links": {
+        "amazon": "http://www.amazon.com"
+      }
+    },
+    {
+      "author": "Giovanni Boccaccio",
+      "imageLink": "images/the-decameron.jpg",
+      "link": "https://en.wikipedia.org/wiki/The_Decameron",
+      "title": "The Decameron",
+      "description": "The Decameron (Italian title: \"Decameron\" [deˈkaːmeron; dekameˈrɔn; dekameˈron] or \"Decamerone\" [dekameˈroːne]), subtitled \"Prince Galehaut\" (Old Italian: Prencipe Galeotto [ˈprentʃipe ɡaleˈɔtto; ˈprɛntʃipe] and sometimes nicknamed \"Umana commedia\", \"Human comedy\"), is a collection of novellas by the 14th-century Italian author Giovanni Boccaccio (1313–1375). The book is structured as a frame story containing 100 tales told by a group of seven young women and three young men sheltering in a secluded villa just outside Florence to escape the Black Death, which was afflicting the city. Boccaccio probably conceived of The Decameron after the epidemic of 1348, and completed it by 1353. The various tales of love in The Decameron range from the erotic to the tragic. Tales of wit, practical jokes, and life lessons contribute to the mosaic. In addition to its literary value and widespread influence (for example on Chaucer's The Canterbury Tales), it provides a document of life at the time. Written in the vernacular of the Florentine language, it is considered a masterpiece of classical early Italian prose.",
+      "year": 1351,
+      "rating": "9.3",
+      "links": {
+        "amazon": "http://www.amazon.com",
+        "playstore": "http://play.google.com/books"
+      }
+    },
+    {
+      "author": "Jorge Luis Borges",
+      "imageLink": "images/ficciones.jpg",
+      "link": "https://en.wikipedia.org/wiki/Ficciones",
+      "title": "Ficciones",
+      "description": "Ficciones is the most popular collection of short stories by Argentine writer and poet Jorge Luis Borges, often considered the best introduction to his work. Ficciones should not be confused with Labyrinths, although they have much in common. Labyrinths is a separate translation of Borges's material into English, by James E. Irby. The translation of Ficciones into English appeared in 1962, the same year that Labyrinths was published. Together, these two translations led to much of Borges's worldwide fame in the 1960s. Several stories appear in both volumes. \"The Approach to Al-Mu'tasim\" appeared originally in History of Eternity (1936).",
+      "year": 1965,
+      "rating": "5.9",
+      "links": {
+        "amazon": "http://www.amazon.com",
+        "playstore": "http://play.google.com/books"
+      }
+    },
+    {
+      "author": "Emily Brontë",
+      "imageLink": "images/wuthering-heights.jpg",
+      "link": "https://en.wikipedia.org/wiki/Wuthering_Heights",
+      "title": "Wuthering Heights",
+      "description": "Wuthering Heights, Emily Brontës only novel, was published in 1847 under the pseudonym \"Ellis Bell\". It was written between October 1845 and June 1846, Wuthering Heights and Anne Brontës Agnes Grey were accepted by publisher Thomas Newby before the success of their sister Charlottes novel Jane Eyre. After Emilys death, Charlotte edited the manuscript of Wuthering Heights and arranged for the edited version to be published as a posthumous second edition in 1850.\n\nAlthough Wuthering Heights is now a classic of English literature, contemporary reviews were deeply polarised; it was controversial because of its unusually stark depiction of mental and physical cruelty, and it challenged strict Victorian ideals of the day regarding religious hypocrisy, morality, social classes and gender inequality. The English poet and painter Dante Gabriel Rossetti, although an admirer of the book, referred to it as \"A fiend of a book – an incredible monster  [...] The action is laid in hell, – only it seems places and people have English names there.\"\n\nWuthering Heights has been seen as having elements of the gothic novel, and another significant aspect is the moorland setting. The novel has inspired adaptations, including film, radio and television dramatisations, a musical, a ballet, operas, and a song by Kate Bush.",
+      "year": 1847,
+      "rating": "3.9",
+      "links": {
+        "amazon": "http://www.amazon.com",
+        "ibooks": "http://www.apple.com/lae/ibooks/"
+      }
+    },
+    {
+      "author": "Albert Camus",
+      "imageLink": "images/l-etranger.jpg",
+      "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)",
+      "title": "The Stranger",
+      "description": "L’Étranger (The Outsider [UK], or The Stranger [US]) is a 1942 novel by French author Albert Camus. Its theme and outlook are often cited as examples of Camus philosophy of the absurd and existentialism, though Camus personally rejected the latter label.\n\nThe title character is Meursault, an indifferent French Algerian described as \"a citizen of France domiciled in North Africa, a man of the Mediterranean, an homme du midi yet one who hardly partakes of the traditional Mediterranean culture\". He attends his mothers funeral. A few days later, he kills an Arab man in French Algiers, who was involved in a conflict with a friend. Meursault is tried and sentenced to death. The story is divided into two parts, presenting Meursaults first-person narrative view before and after the murder, respectively.",
+      "year": 1942,
+      "rating": "9.3",
+      "links": {
+        "amazon": "http://www.amazon.com"
+      }
+    },
+    {
+      "author": "Louis-Ferdinand Céline",
+      "imageLink": "images/voyage-au-bout-de-la-nuit.jpg",
+      "link": "https://en.wikipedia.org/wiki/Journey_to_the_End_of_the_Night",
+      "title": "Journey to the End of the Night",
+      "description": "Journey to the End of the Night (Voyage au bout de la nuit, 1932) is the first novel by Louis-Ferdinand Céline. This semi-autobiographical work describes antihero Ferdinand Bardamu.\n\nBardamu is involved with World War I, colonial Africa, and post–World War I United States (where he works for the Ford Motor Company), returning in the second half of the novel to France, where he becomes a medical doctor and establishes a practice in a poor Paris suburb, the fictional La Garenne-Rancy. The novel also satirizes the medical profession and the vocation of scientific research. The disparate elements of the work are linked together by recurrent encounters with Léon Robinson, a hapless character whose experiences parallel, to some extent, Bardamus experiences.",
+      "year": 1932,
+      "rating": "7.4",
+      "links": {
+        "amazon": "http://www.amazon.com",
+        "ibooks": "http://www.apple.com/lae/ibooks/",
+        "playstore": "http://play.google.com/books"
+      }
+    },
+    {
+      "author": "Miguel de Cervantes",
+      "imageLink": "images/don-quijote-de-la-mancha.jpg",
+      "link": "https://en.wikipedia.org/wiki/Don_Quixote",
+      "title": "Don Quijote De La Mancha",
+      "description": "The Ingenious Nobleman Sir Quixote of La Mancha (El Ingenioso Hidalgo Don Quijote de la Mancha, pronounced [el iŋxeˈnjoso iˈðalɣo ðoŋ kiˈxote ðe la ˈmantʃa]), or just Don Quixote (/ˌdɒn kiːˈhoʊti/, US: /-teɪ/; Spanish: [don kiˈxote] (About this sound listen)), is a Spanish novel by Miguel de Cervantes. Published in two parts, in 1605 and 1615, Don Quixote is the most influential work of literature from the Spanish Golden Age and the entire Spanish literary canon. As a founding work of modern Western literature and the earliest canonical novel, it regularly appears high on lists of the greatest works of fiction ever published, such as the Bokklubben World Library collection that cites Don Quixote as the authors choice for the \"best literary work ever written\".\n\nThe story follows the adventures of a noble (hidalgo) named Alonso Quixano who reads so many chivalric romances that he loses his sanity and decides to become a knight-errant (caballero andante), reviving chivalry and serving his country, under the name Don Quixote de la Mancha. He recruits a simple farmer, Sancho Panza, as his squire, who often employs a unique, earthy wit in dealing with Don Quixotes rhetorical orations on antiquated knighthood. Don Quixote, in the first part of the book, does not see the world for what it is and prefers to imagine that he is living out a knightly story.\n\nThroughout the novel, Cervantes uses such literary techniques as realism, metatheatre, and intertextuality. The book had a major influence on the literary community, as evidenced by direct references in Alexandre Dumas The Three Musketeers (1844), Mark Twains Adventures of Huckleberry Finn (1884), and Edmond Rostands Cyrano de Bergerac (1897), as well as the word \"quixotic\" and the epithet \"Lothario\"; the latter refers to a character in \"El curioso impertinente\" (\"The Impertinently Curious Man\"), an intercalated story that appears in Part One, chapters 33–35. The 19th century German philosopher Arthur Schopenhauer cited Don Quixote as one of the four greatest novels ever written, along with Tristram Shandy, La Nouvelle Héloïse, and Wilhelm Meisters Lehrjahre.\n\nWhen first published, Don Quixote was usually interpreted as a comic novel. After the French Revolution, it was popular for its central ethic that individuals can be right while society is quite wrong and seen as disenchanting. In the 19th century, it was seen as a social commentary, but no one could easily tell \"whose side Cervantes was on\". Many critics came to view the work as a tragedy in which Don Quixotes idealism and nobility are viewed by the post-chivalric world as insane, and are defeated and rendered useless by common reality. By the 20th century, the novel had come to occupy a canonical space as one of the foundations of modern literature.",
+      "year": 1610,
+      "rating": "7.3",
+      "links": {
+        "amazon": "http://www.amazon.com"
+      }
+    },
+    {
+      "author": "Geoffrey Chaucer",
+      "imageLink": "images/the-canterbury-tales.jpg",
+      "link": "https://en.wikipedia.org/wiki/The_Canterbury_Tales",
+      "title": "The Canterbury Tales",
+      "description": "The Canterbury Tales (Middle English: Tales of Caunterbury) is a collection of 24 stories that runs to over 17,000 lines written in Middle English by Geoffrey Chaucer between 1387 and 1400. In 1386, Chaucer became Controller of Customs and Justice of Peace and, in 1389, Clerk of the Kings work. It was during these years that Chaucer began working on his most famous text, The Canterbury Tales. The tales (mostly written in verse, although some are in prose) are presented as part of a story-telling contest by a group of pilgrims as they travel together on a journey from London to Canterbury to visit the shrine of Saint Thomas Becket at Canterbury Cathedral. The prize for this contest is a free meal at the Tabard Inn at Southwark on their return.\n\nAfter a long list of works written earlier in his career, including Troilus and Criseyde, House of Fame, and Parliament of Fowls, The Canterbury Tales is near-unanimously seen as Chaucers magnum opus. He uses the tales and descriptions of its characters to paint an ironic and critical portrait of English society at the time, and particularly of the Church. Chaucers use of such a wide range of classes and types of people was without precedent in English. Although the characters are fictional, they still offer a variety of insights into customs and practices of the time. Often, such insight leads to a variety of discussions and disagreements among people in the 14th century. For example, although various social classes are represented in these stories and all of the pilgrims are on a spiritual quest, it is apparent that they are more concerned with worldly things than spiritual. Structurally, the collection resembles Giovanni Boccaccios The Decameron, which Chaucer may have read during his first diplomatic mission to Italy in 1372.",
+      "year": 1450,
+      "rating": "3.9",
+      "links": {}
+    },
+    {
+      "author": "Joseph Conrad",
+      "imageLink": "images/nostromo.jpg",
+      "link": "https://en.wikipedia.org/wiki/Nostromo",
+      "title": "Nostromo",
+      "description": "",
+      "year": 1904,
+      "rating": "6.8",
+      "links": {}
+    },
+    {
+      "author": "Charles Dickens",
+      "imageLink": "images/great-expectations.jpg",
+      "link": "https://en.wikipedia.org/wiki/Great_Expectations",
+      "title": "Great Expectations",
+      "description": "Nostromo: A Tale of the Seaboard is a 1904 novel by Joseph Conrad, set in the fictitious South American republic of \"Costaguana\". It was originally published serially in two volumes of T.P.s Weekly.\n\nIn 1998, the Modern Library ranked Nostromo 47th on its list of the 100 best English-language novels of the 20th century. It is frequently regarded as amongst the best of Conrads long fiction; F. Scott Fitzgerald once said, \"Id rather have written Nostromo than any other novel.\"",
+      "year": 1861,
+      "rating": "8.1",
+      "links": {
+        "amazon": "http://www.amazon.com",
+        "playstore": "http://play.google.com/books"
+      }
+    },
+    {
+      "author": "Denis Diderot",
+      "imageLink": "images/jacques-the-fatalist.jpg",
+      "link": "https://en.wikipedia.org/wiki/Jacques_the_Fatalist",
+      "title": "Jacques the Fatalist",
+      "description": "Jacques the Fatalist and his Master (French: Jacques le fataliste et son maître) is a novel by Denis Diderot, written during the period 1765–1780. The first French edition was published posthumously in 1796, but it was known earlier in Germany, thanks to Goethes partial translation, which appeared in 1785 and was retranslated into French in 1793, as well as Myliuss complete German version of 1792.",
+      "year": 1796,
+      "rating": "5.1",
+      "links": {}
+    },
+    {
+      "author": "Alfred Döblin",
+      "imageLink": "images/berlin-alexanderplatz.jpg",
+      "link": "https://en.wikipedia.org/wiki/Berlin_Alexanderplatz",
+      "title": "Berlin Alexanderplatz",
+      "description": "Berlin Alexanderplatz (German: [bɛɐˈliːn ˌalɛˈksandɐplats]) is a 1929 novel by Alfred Döblin. It is considered one of the most important and innovative works of the Weimar Republic. In a 2002 poll of 100 noted writers the book was named among the top 100 books of all time.",
+      "year": 1929,
+      "rating": "8",
+      "links": {
+        "ibooks": "http://www.apple.com/lae/ibooks/"
+      }
+    },
+    {
+      "author": "Fyodor Dostoevsky",
+      "imageLink": "images/crime-and-punishment.jpg",
+      "link": "https://en.wikipedia.org/wiki/Crime_and_Punishment",
+      "title": "Crime and Punishment",
+      "description": "Crime and Punishment (Pre-reform Russian: Преступленіе и наказаніе; post-reform Russian: Преступление и наказание, tr. Prestupléniye i nakazániye, IPA: [prʲɪstʊˈplʲenʲɪje ɪ nəkɐˈzanʲɪje]) is a novel by the Russian author Fyodor Dostoevsky. It was first published in the literary journal The Russian Messenger in twelve monthly installments during 1866. Later, it was published in a single volume. It is the second of Dostoevskys full-length novels following his return from 5 years of exile in Siberia. Crime and Punishment is considered the first great novel of his \"mature\" period of writing.\n\nCrime and Punishment focuses on the mental anguish and moral dilemmas of Rodion Raskolnikov, an impoverished ex-student in Saint Petersburg who formulates a plan to kill an unscrupulous pawnbroker for her money. Before the killing, Raskolnikov believes that with the money he could liberate himself from poverty and go on to perform great deeds; but confusion, hesitation, and chance muddy his plan for a morally justifiable killing.",
+      "year": 1866,
+      "rating": "4.8",
+      "links": {}
+    },
+    {
+      "author": "Fyodor Dostoevsky",
+      "imageLink": "images/the-idiot.jpg",
+      "link": "https://en.wikipedia.org/wiki/The_Idiot",
+      "title": "The Idiot",
+      "description": "The Idiot (pre-reform Russian: Идіотъ; post-reform Russian: Идиот, tr. Idiót) is a novel by the 19th-century Russian author Fyodor Dostoevsky. It was first published serially in the journal The Russian Messenger in 1868–9.\n\nThe title is an ironic reference to the central character of the novel, Prince (Knyaz) Lev Nikolayevich Myshkin, a young man whose goodness, open-hearted simplicity and guilelessness lead many of the more worldly characters he encounters to mistakenly assume that he lacks intelligence and insight. In the character of Prince Myshkin, Dostoevsky set himself the task of depicting \"the positively good and beautiful man.\" The novel examines the consequences of placing such a unique individual at the centre of the conflicts, desires, passions and egoism of worldly society, both for the man himself and for those with whom he becomes involved.\n\nJoseph Frank describes The Idiot as \"the most personal of all Dostoevskys major works, the book in which he embodies his most intimate, cherished, and sacred convictions.\" It includes descriptions of some of his most intense personal ordeals, such as epilepsy and mock execution, and explores moral, spiritual and philosophical themes consequent upon them. His primary motivation in writing the novel was to subject his own highest ideal, that of true Christian love, to the crucible of contemporary Russian society.\n\nThe artistic method of conscientiously testing his central idea meant that the author could not always predict where the plot was going as he was writing. The novel is structurally awkward, and many critics have commented on its seemingly chaotic organization. According to Gary Saul Morson, \"The Idiot violates every critical norm and yet somehow manages to achieve real greatness.\" Dostoevsky himself was of the opinion that the experiment was not entirely successful, but the novel remained his favourite among his own works. In a letter to Strakhov he wrote: \"Much in the novel was written hurriedly, much is too diffuse and did not turn out well, but some of it did turn out well. I do not stand behind the novel, but I do stand behind the idea.\"",
+      "year": 1869,
+      "rating": "6.1",
+      "links": {
+        "amazon": "http://www.amazon.com",
+        "ibooks": "http://www.apple.com/lae/ibooks/",
+        "playstore": "http://play.google.com/books"
+      }
+    },
+    {
+      "author": "Fyodor Dostoevsky",
+      "imageLink": "images/the-possessed.jpg",
+      "link": "https://en.wikipedia.org/wiki/Demons_(Dostoyevsky_novel)",
+      "title": "The Possessed",
+      "description": "Demons (pre-reform Russian: Бѣсы; post-reform Russian: Бесы, tr. Bésy; sometimes also called The Possessed or The Devils) is a novel by Fyodor Dostoevsky, first published in the journal The Russian Messenger in 1871–2. It is considered one of the four masterworks written by Dostoevsky after his return from Siberian exile, along with Crime and Punishment (1866), The Idiot (1869) and The Brothers Karamazov (1880). Demons is a social and political satire, a psychological drama, and large scale tragedy. Joyce Carol Oates has described it as \"Dostoevskys most confused and violent novel, and his most satisfactorily tragic work.\" According to Ronald Hingley, it is Dostoevskys \"greatest onslaught on Nihilism\", and \"one of humanitys most impressive achievements—perhaps even its supreme achievement—in the art of prose fiction.\"\n\nDemons is an allegory of the potentially catastrophic consequences of the political and moral nihilism that were becoming prevalent in Russia in the 1860s. A fictional town descends into chaos as it becomes the focal point of an attempted revolution, orchestrated by master conspirator Pyotr Verkhovensky. The mysterious aristocratic figure of Nikolai Stavrogin—Verkhovenskys counterpart in the moral sphere—dominates the book, exercising an extraordinary influence over the hearts and minds of almost all the other characters. The idealistic, western-influenced generation of the 1840s, epitomized in the character of Stepan Verkhovensky (who is both Pyotr Verkhovenskys father and Nikolai Stavrogins childhood teacher), are presented as the unconscious progenitors and helpless accomplices of the demonic forces that take possession of the town.",
+      "year": 1872,
+      "rating": "5.8",
+      "links": {
+        "ibooks": "http://www.apple.com/lae/ibooks/",
+        "playstore": "http://play.google.com/books"
+      }
+    },
+    {
+      "author": "Fyodor Dostoevsky",
+      "imageLink": "images/the-brothers-karamazov.jpg",
+      "link": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov",
+      "title": "The Brothers Karamazov",
+      "description": "The Brothers Karamazov (Russian: Бра́тья Карама́зовы, Bratya Karamazovy, pronounced [ˈbratʲjə kərɐˈmazəvɨ]), also translated as The Karamazov Brothers, is the final novel by the Russian author Fyodor Dostoevsky. Dostoevsky spent nearly two years writing The Brothers Karamazov, which was published as a serial in The Russian Messenger from January 1879 to November 1880. Dostoevsky died less than four months after its publication.\n\nThe Brothers Karamazov is a passionate philosophical novel set in 19th-century Russia, that enters deeply into the ethical debates of God, free will, and morality. It is a spiritual drama of moral struggles concerning faith, doubt, judgment, and reason, set against a modernizing Russia, with a plot which revolves around the subject of patricide. Dostoevsky composed much of the novel in Staraya Russa, which inspired the main setting. Since its publication, it has been acclaimed as one of the supreme achievements in world literature.",
+      "year": 1880,
+      "rating": "6.2",
+      "links": {
+        "amazon": "http://www.amazon.com",
+        "playstore": "http://play.google.com/books"
+      }
+    },
+    {
+      "author": "George Eliot",
+      "imageLink": "images/middlemarch.jpg",
+      "link": "https://en.wikipedia.org/wiki/Middlemarch",
+      "title": "Middlemarch",
+      "description": "Middlemarch, A Study of Provincial Life is a novel by the English author George Eliot (Mary Anne Evans), first published in eight instalments (volumes) during 1871–72. The novel is set in the fictitious Midlands town of Middlemarch during 1829–32, and it comprises several distinct (though intersecting) stories and a large cast of characters. Significant themes include the status of women, the nature of marriage, idealism, self-interest, religion, hypocrisy, political reform, and education.\n\nAlthough containing comical elements, Middlemarch is a work of realism that refers to many historical events: the 1832 Reform Act, the beginnings of the railways, the death of King George IV, and the succession of his brother, the Duke of Clarence (the future King William IV). In addition, the work incorporates contemporary medical science and examines the deeply reactionary mindset found within a settled community facing the prospect of unwelcome change.\n\nEliot began writing the two pieces that would eventually form Middlemarch during the years 1869–70 and completed the novel in 1871.\n\nAlthough the first reviews were mixed, it is now widely regarded as her best work and one of the greatest novels written in English.",
+      "year": 1871,
+      "rating": "8.2",
+      "links": {
+        "ibooks": "http://www.apple.com/lae/ibooks/",
+        "playstore": "http://play.google.com/books"
+      }
+    },
+    {
+      "author": "Ralph Ellison",
+      "imageLink": "images/invisible-man.jpg",
+      "link": "https://en.wikipedia.org/wiki/Invisible_Man",
+      "title": "Invisible Man",
+      "description": "Invisible Man is a novel by Ralph Ellison, published by Random House in 1952. It addresses many of the social and intellectual issues facing African Americans early in the twentieth century, including black nationalism, the relationship between black identity and Marxism, and the reformist racial policies of Booker T. Washington, as well as issues of individuality and personal identity.\n\nInvisible Man won the U.S. National Book Award for Fiction in 1953. In 1998, the Modern Library ranked Invisible Man 19th on its list of the 100 best English-language novels of the 20th century. Time magazine included the novel in its TIME 100 Best English-language Novels from 1923 to 2005, calling it \"the quintessential American picaresque of the 20th century\", rather than a \"race novel, or even a bildungsroman\". Malcolm Bradbury and Richard Ruland recognize an existential vision with a \"Kafka-like absurdity\". According to The New York Times, former U.S. president Barack Obama modeled his memoir Dreams from My Father on Ellisons novel.",
+      "year": 1952,
+      "rating": "5.4",
+      "links": {
+        "amazon": "http://www.amazon.com"
+      }
+    },
+    {
+      "author": "William Faulkner",
+      "imageLink": "images/absalom-absalom.jpg",
+      "link": "https://en.wikipedia.org/wiki/Absalom,_Absalom!",
+      "title": "Absalom, Absalom!",
+      "description": "Absalom, Absalom! is a novel by the American author William Faulkner, first published in 1936. Taking place before, during, and after the Civil War, it is a story about three families of the American South, with a focus on the life of Thomas Sutpen.",
+      "year": 1936,
+      "rating": "7.3",
+      "links": {
+        "amazon": "http://www.amazon.com",
+        "ibooks": "http://www.apple.com/lae/ibooks/"
+      }
+    },
+    {
+      "author": "William Faulkner",
+      "imageLink": "images/the-sound-and-the-fury.jpg",
+      "link": "https://en.wikipedia.org/wiki/The_Sound_and_the_Fury",
+      "title": "The Sound and the Fury",
+      "description": "The Sound and the Fury is a novel written by the American author William Faulkner. It employs a number of narrative styles, including stream of consciousness. Published in 1929, The Sound and the Fury was Faulkners fourth novel, and was not immediately successful. In 1931, however, when Faulkners sixth novel, Sanctuary, was published—a sensationalist story, which Faulkner later claimed was written only for money—The Sound and the Fury also became commercially successful, and Faulkner began to receive critical attention.\n\nIn 1998, the Modern Library ranked The Sound and the Fury sixth on its list of the 100 best English-language novels of the 20th century.",
+      "year": 1929,
+      "rating": "8.2",
+      "links": {
+        "amazon": "http://www.amazon.com",
+        "playstore": "http://play.google.com/books"
+      }
+    },
+    {
+      "author": "Gustave Flaubert",
+      "imageLink": "images/madame-bovary.jpg",
+      "link": "https://en.wikipedia.org/wiki/Madame_Bovary",
+      "title": "Madame Bovary",
+      "description": "Madame Bovary (full French title: Madame Bovary. Mœurs de province) is the debut novel of French writer Gustave Flaubert, published in 1856. The character lives beyond her means in order to escape the banalities and emptiness of provincial life.\n\nWhen the novel was first serialized in La Revue de Paris between 1 October 1856 and 15 December 1856, public prosecutors attacked the novel for obscenity. The resulting trial in January 1857 made the story notorious. After Flauberts acquittal on 7 February 1857, Madame Bovary became a bestseller in April 1857 when it was published in two volumes. A seminal work of literary realism, the novel is now considered Flauberts masterpiece, and one of the most influential literary works in history. The British critic James Wood writes: \"Flaubert established, for good or ill, what most readers think of as modern realist narration, and his influence is almost too familiar to be visible.\"",
+      "year": 1857,
+      "rating": "9.3",
+      "links": {}
+    },
+    {
+      "author": "Gustave Flaubert",
+      "imageLink": "images/l-education-sentimentale.jpg",
+      "link": "https://en.wikipedia.org/wiki/Sentimental_Education",
+      "title": "Sentimental Education",
+      "description": "Sentimental Education (French: LÉducation sentimentale, 1869) is a novel by Gustave Flaubert. Considered one of the most influential novels of the 19th century, it was praised by contemporaries such as George Sand and Émile Zola, but criticised by Henry James. The story focuses on the romantic life of a young man at the time of the French Revolution of 1848.",
+      "year": 1869,
+      "rating": "6.3",
+      "links": {
+        "amazon": "http://www.amazon.com",
+        "ibooks": "http://www.apple.com/lae/ibooks/"
+      }
+    },
+    {
+      "author": "Gabriel García Márquez",
+      "imageLink": "images/one-hundred-years-of-solitude.jpg",
+      "link": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude",
+      "title": "One Hundred Years of Solitude",
+      "description": "One Hundred Years of Solitude (Spanish: Cien años de soledad, American Spanish: [sjen ˈaɲoz ðe soleˈðað]) is a landmark 1967 novel by Colombian author Gabriel García Márquez that tells the multi-generational story of the Buendía family, whose patriarch, José Arcadio Buendía, founded the town of Macondo, a fictitious town in the country of Colombia.\n\nThe magical realist style and thematic substance of One Hundred Years of Solitude established it as an important representative novel of the literary Latin American Boom of the 1960s and 1970s, which was stylistically influenced by Modernism (European and North American) and the Cuban Vanguardia (Avant-Garde) literary movement.\n\nSince it was first published in May 1967 in Buenos Aires by Editorial Sudamericana, One Hundred Years of Solitude has been translated into 37 languages and has sold more than 30 million copies. The novel, considered García Márquezs magnum opus, remains widely acclaimed and is recognized as one of the most significant works in the Spanish literary canon.",
+      "year": 1967,
+      "rating": "8.5",
+      "links": {}
+    },
+    {
+      "author": "Gabriel García Márquez",
+      "imageLink": "images/love-in-the-time-of-cholera.jpg",
+      "link": "https://en.wikipedia.org/wiki/Love_in_the_Time_of_Cholera",
+      "title": "Love in the Time of Cholera",
+      "description": "Love in the Time of Cholera (Spanish: El amor en los tiempos del cólera) is a novel by Colombian Nobel prize winning author Gabriel García Márquez. The novel was first published in Spanish in 1985. Alfred A. Knopf published an English translation in 1988, and an English-language movie adaptation was released in 2007.",
+      "year": 1985,
+      "rating": "6",
+      "links": {
+        "ibooks": "http://www.apple.com/lae/ibooks/",
+        "playstore": "http://play.google.com/books"
+      }
+    },
+    {
+      "author": "Johann Wolfgang von Goethe",
+      "imageLink": "images/faust.jpg",
+      "link": "https://en.wikipedia.org/wiki/Goethe%27s_Faust",
+      "title": "Faust",
+      "description": "Faust is a tragic play in two parts by Johann Wolfgang von Goethe, usually known in English as Faust, Part One and Faust, Part Two. Although rarely staged in its entirety, it is the play with the largest audience numbers on German-language stages. Faust is considered by many to be Goethes magnum opus and the greatest work of German literature.\n\nThe earliest forms of the work, known as the Urfaust, were developed between 1772 and 1775; however, the details of that development are not entirely clear. Urfaust has twenty-two scenes, one in prose, two largely prose and the remaining 1,441 lines in rhymed verse. The manuscript is lost, but a copy was discovered in 1886.\n\nThe first appearance of the work in print was Faust, a Fragment, published in 1790. Goethe completed a preliminary version of what is now known as Part One in 1806. Its publication in 1808 was followed by the revised 1828–29 edition, the last to be edited by Goethe himself.\n\nGoethe finished writing Faust Part Two in 1831. In contrast to Faust Part One, the focus here is no longer on the soul of Faust, which has been sold to the devil, but rather on social phenomena such as psychology, history and politics, in addition to mystical and philosophical topics. The second part formed the principal occupation of Goethes last years. It appeared only posthumously in 1832.",
+      "year": 1832,
+      "rating": "9.2",
+      "links": {
+        "amazon": "http://www.amazon.com"
+      }
+    },
+    {
+      "author": "Nikolai Gogol",
+      "imageLink": "images/dead-souls.jpg",
+      "link": "https://en.wikipedia.org/wiki/Dead_Souls",
+      "title": "Dead Souls",
+      "description": "Dead Souls (Russian: «Мёртвые души», Mjórtvyje dúshi) is a novel by Nikolai Gogol, first published in 1842, and widely regarded as an exemplar of 19th-century Russian literature. The purpose of the novel was to demonstrate the flaws and faults of the Russian mentality and character. Gogol portrayed those defects through Pavel Ivanovich Chichikov (Russian: Павел Иванович Чичиков) and the people whom he encounters in his endeavours. These people are typical of the Russian middle-class of the time. Gogol himself saw it as an \"epic poem in prose\", and within the book as a \"novel in verse\". Despite supposedly completing the trilogys second part, Gogol destroyed it shortly before his death. Although the novel ends in mid-sentence (like Sternes Sentimental Journey), it is usually regarded as complete in the extant form.",
+      "year": 1842,
+      "rating": "7.1",
+      "links": {
+        "ibooks": "http://www.apple.com/lae/ibooks/"
+      }
+    },
+    {
+      "author": "Günter Grass",
+      "imageLink": "images/the-tin-drum.jpg",
+      "link": "https://en.wikipedia.org/wiki/The_Tin_Drum",
+      "title": "The Tin Drum",
+      "description": "The Tin Drum (German: Die Blechtrommel) is a 1959 novel by Günter Grass. The novel is the first book of Grasss Danziger Trilogie (Danzig Trilogy). It was adapted into a 1979 film, which won both the Palme dOr, in the same year, and the Academy Award for Best Foreign Language Film the following year.",
+      "year": 1959,
+      "rating": "7",
+      "links": {
+        "amazon": "http://www.amazon.com",
+        "ibooks": "http://www.apple.com/lae/ibooks/"
+      }
+    }
+  ]
+}

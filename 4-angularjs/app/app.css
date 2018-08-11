@@ -1,25 +1,106 @@
 /* app css stylesheet */
+* {
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
 
-.menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
+    /* Rules below not implemented in browsers yet */
+    -o-user-select: none;
+    user-select: none;
 }
 
-.menu:before {
-  content: "[";
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
-.menu:after {
-  content: "]";
+body {
+    background-color: #f5f1ec;
+    color: #2a2a2a;
+    font-family: 'Lato', sans-serif;
 }
 
-.menu > li {
-  display: inline;
+a {
+    color: #bdd385;
 }
 
-.menu > li + li:before {
-  content: "|";
-  padding-right: 0.3em;
+a:hover {
+    color: #bdd385;
+    text-decoration: underline;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.row {
+    font-size: 17px;
+}
+
+.row:not(.header) {
+    cursor: pointer;
+}
+
+.row.striped {
+    background-color: #faf9f7;
+}
+
+.row.hover {
+    /*cursor: pointer;*/
+}
+
+.row.hover:hover {
+    background-color: #F2F1EF;
+}
+
+.header {
+    font-size: 16px;
+    color: #a5a5a5;
+}
+
+.author {
+    color: #a5a4a4;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.description {
+    font-size: 16px;
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: all 100ms;
+    -o-transition: all 100ms;
+    transition: all 100ms;
+    margin-top: 0;
+}
+
+.description.expand {
+    max-height: 500px;
+    margin-top: 1rem;
+}
+
+.paging {
+    font-size: 17px;
+}
+
+.arrow {
+    font-size: 20px;
+    cursor: pointer;
+    color: #C2C2C2;
+}
+
+.arrow.inactive {
+    cursor: not-allowed;
+    color: #E9E9E9;
+}
+
+.arrow:not(.inactive):hover {
+    color: #838383;
+}
+
+h5 {
+    font-size: 22px;
 }

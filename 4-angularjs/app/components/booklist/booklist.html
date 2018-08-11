@@ -1,0 +1,38 @@
+<div class="container m-4 p-2">
+    <h5 class="pl-3 pt-3 font-weight-bold">Most popular Books of All time</h5>
+
+    <div class="row header m-0 mt-3 mb-3 font-weight-bold">
+        <div class="col-md-5">TITLE</div>
+        <div class="col-md-3 text-center">PUBLISHED</div>
+        <div class="col-md-2 text-center">RATING</div>
+        <div class="col-md-2 text-center">BUY ON</div>
+    </div>
+
+    <div ng-repeat="(key, book) in books" class="row m-0 pt-3 pb-3 hover" ng-class="{'striped': key % 2 === 0}" ng-click="expandRow(key)">
+        <div class="col-md-1">
+            <img ng-src="{{book.imageLink}}" width="74" height="111" style="border-radius: 5px; "/>
+        </div>
+        <div class="col-md-4 pl-4">
+            <div class="title font-weight-bold">{{book.title}}</div>
+            <div class="author mt-1">{{book.author}}</div>
+        </div>
+        <div class="col-md-3 my-auto text-center">
+            <span class="font-weight-bold">{{book.year}}</span>
+        </div>
+        <div class="col-md-2 my-auto text-center font-weight-bold">
+            <span>{{book.rating}}/10</span>
+        </div>
+        <div class="col-md-2 my-auto text-center font-weight-bold">
+            <div ng-if="book.links.amazon"><a ng-href="{{book.links.amazon}}" target="_blank">Amazon</a></div>
+            <div ng-if="book.links.ibooks"><a ng-href="{{book.links.ibooks}}" target="_blank">iBooks</a></div>
+            <div ng-if="book.links.playstore"><a ng-href="{{book.links.playstore}}" target="_blank">Play Store</a></div>
+        </div>
+        <div class="col-md-12 description" ng-class="{ expand: expandedRow == key}">{{book.description}}</div>
+        <!---->
+    </div>
+    <div class="paging text-center mt-3 mb-2 font-weight-bold" ng-if="books.length > 0">
+        <i class="fas fa-chevron-left mr-3 arrow" ng-click="hasPrevPage && prevPage()" ng-class="{ inactive: !hasPrevPage}"></i>
+        <span>Page {{currentPage}} of {{totalPages}}</span>
+        <i class="fas fa-chevron-right ml-3 arrow" ng-click="hasNextPage && nextPage()" ng-class="{ inactive: !hasNextPage}"></i>
+    </div>
+</div>
