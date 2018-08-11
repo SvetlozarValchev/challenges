@@ -1,8 +1,10 @@
 'use strict';
 
-angular.module('myApp', [
+angular.module('app', [
     'ngRoute',
-    'myApp.catalog'
+    'components',
+    'sections',
+    'services'
 ]).config(['$routeProvider', function($routeProvider) {
     $routeProvider.otherwise({redirectTo: '/catalog'});
 }]);

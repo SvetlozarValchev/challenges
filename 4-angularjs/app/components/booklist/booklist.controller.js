@@ -1,9 +1,5 @@
-'use strict';
-
-angular.module("myApp.booklist", [
-    'myApp.booksData'
-])
-    .controller('BookListCtrl', ['booksData', '$scope', function(booksData, $scope) {
+angular.module("components.booklist")
+    .controller('BookListCtrl', ['booksService', '$scope', function(booksService, $scope) {
         var page = 0;
 
         $scope.hasPrevPage = false;
@@ -35,19 +31,13 @@ angular.module("myApp.booklist", [
 
             $scope.expandedRow = -1;
             $scope.currentPage = page + 1;
-            $scope.totalPages = Math.ceil(booksData.total() / size);
+            $scope.totalPages = Math.ceil(booksService.total() / size);
             $scope.hasPrevPage = page > 0;
             $scope.hasNextPage = $scope.currentPage < $scope.totalPages;
-            $scope.books = booksData.fetch(page * size, 5);
+            $scope.books = booksService.fetch(page * size, 5);
         }
 
-        booksData.load().then(function() {
+        booksService.load().then(function() {
             loadPage(page);
         });
-    }])
-    .directive("booklist", function() {
-        return {
-            templateUrl: 'components/booklist/booklist.html',
-            controller: 'BookListCtrl'
-        };
-    });
+    }]);

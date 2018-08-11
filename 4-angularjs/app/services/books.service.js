@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('myApp.booksData', [])
-    .service('booksData', function($http, $q) {
+angular.module('services')
+    .service('booksService', function($http, $q) {
         var loaded = false;
         var booksData = null;
 
