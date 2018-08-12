@@ -2,14 +2,14 @@
   "name": "5-bonus-question",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/operation.js",
+  "main": "dist/text-operation-adapter.js",
   "scripts": {
-    "start": "tsc && node dist/index",
     "build": "tsc",
     "test": "tsc && mocha dist/**/*.spec.js"
   },
   "dependencies": {
     "@types/node": "7.0.22",
+    "ot": "0.0.15",
     "typescript": "3.0.1"
   },
   "devDependencies": {
