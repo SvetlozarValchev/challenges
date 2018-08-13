@@ -2,15 +2,6 @@
 
 # Node.js Fullstack Engineer Challenge
 
-You can submit all the answers to this assignment in a single repository (or as a zipped folder), containing markdown and code.
-
-**For questions 3-5 use the latest Node LTS**.
-
-## 1. About you
-
-Tell us about one of your commercial projects with Node.js and/or AngularJS.
-
-
 ## 2. Document versioning
 
 Detail how you would store several versioned, text-based documents, and present a schema for your solution.
