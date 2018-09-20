@@ -1,4 +1,4 @@
-# Reedsy Challenges
+# Challenges
 
 # Node.js Fullstack Engineer Challenge
 
