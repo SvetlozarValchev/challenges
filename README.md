@@ -56,9 +56,9 @@ The project should be responsible for managing all the required dependencies and
 
 Using AngularJS (1.x), create a basic SPA that implements the following UI.
 
-![AngularJS 1](./4-angularjs/images/node_4-01.png "AngularJS 1")
+![AngularJS 1](./3-angularjs/images/node_4-01.png "AngularJS 1")
 
-![AngularJS 2](./4-angularjs/images/node_4-02.png "AngularJS 2")
+![AngularJS 2](./3-angularjs/images/node_4-02.png "AngularJS 2")
 
 - Each page should display 5 books.
 - A few pages should be available in order for pagination to work.
