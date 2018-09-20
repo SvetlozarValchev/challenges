@@ -1,8 +1,6 @@
-# Challenges
+# Challenges (Node.js Fullstack Engineer Challenge)
 
-# Node.js Fullstack Engineer Challenge
-
-## 2. Document versioning
+## 1. Document versioning
 
 Detail how you would store several versioned, text-based documents, and present a schema for your solution.
 
@@ -14,7 +12,7 @@ It should be able to show:
 Strive for disk space efficiency.
 
 
-## 3. Node.js REST API
+## 2. Node.js REST API
 
 Implement a REST API using Express.js that handles Export and Import requests. The solution should ideally be written in Typescript, or else using plain JavaScript's `class` structure.
 
@@ -54,7 +52,7 @@ Add test coverage as you see fit.
 The project should be responsible for managing all the required dependencies and should run just by using `npm install` and `npm start`.
 
 
-## 4. AngularJS
+## 3. AngularJS
 
 Using AngularJS (1.x), create a basic SPA that implements the following UI.
 
@@ -73,7 +71,7 @@ Add test coverage as you see fit.
 The project should be responsible for managing all the required dependencies and should run just by using `npm install` and `npm start`.
 
 
-## 5. Bonus Question
+## 4. Bonus Question
 
 When multiple users are collaborating on a document, collisions in their edits inevitably occur. Implement a module that can handle basic text update operations, and combine two colliding edits into a single operation.
 
